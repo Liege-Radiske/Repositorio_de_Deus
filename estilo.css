@@ -12,3 +12,11 @@ nav{
 .sobre h2{
     text-decoration: ;
 }
+section{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: rgb(17, 86, 88);
+    color: aliceblue;
+}
