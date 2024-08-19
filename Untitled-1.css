@@ -1,0 +1,56 @@
+header{
+    background-color: rgb(227, 227, 3);
+    text-align: center;
+    font-size: 36px;
+}
+img{
+    text-align: center;
+}
+.img{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+body{
+    background-color: rgb(248, 240, 198);
+}
+section{
+    text-align: center;
+}
+th{
+    background-color:  rgb(227, 227, 3);
+}
+footer{
+    background-color: rgb(227, 227, 3);
+}
+
+
+/* Reset básico para garantir consistência */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display:flow-root;
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px; /* Espaçamento interno */
+    justify-content: space-around; /* Distribui espaço entre os itens *
+    background-color:  rgb(227, 227, 3); /* Cor de fundo do cabeçalho */
+    border-bottom: 1px solid #ddd; /* Borda inferior para separação */
+}
+b{
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o logo */
+    
+}
+
+.logo {
+    height: 200px; /* Ajuste o tamanho conforme necessário */
+    width: auto; /* Mantém a proporção da imagem */
+}
